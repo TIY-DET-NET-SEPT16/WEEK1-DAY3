@@ -41,9 +41,12 @@ namespace WEEK1_DAY3
 
             #endregion
 
+            int someNum = 5;
+            string someString = "Hello";
+
             for (int i = 0; i < 10; i++)
             {
-                MyMethod(string.Format("Some string with a number {0}", i));
+                MyMethod(string.Format("Some string with a number {0}, now another number {1}, and {2} ", i, someNum, someString));
             }
 
             for (int i = 0; i < 10; i++)
